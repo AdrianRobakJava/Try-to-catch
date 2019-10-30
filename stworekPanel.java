@@ -72,7 +72,7 @@ public class stworekPanel extends JPanel {
 			//if(mouse == ev.MOUSE_CLICKED) {
 				if(mouseW > x && mouseW < (x+imageSizeW) && mouseH > y && mouseH < (y+imageSizeH)) {
 					catchh++;
-					System.out.println("Brawo uda�o ci się złapać: " + catchh);
+					System.out.println("Brawo udało ci się złapać: " + catchh);
 				}else {
 					System.out.println(count + "   " + mouseW + "    " + mouseH);
 				}
